@@ -31,7 +31,9 @@
   "home": {
     "pageTitle": "Utama",
     "emptyProfilesMsg": "Mulai menambahkan langganan profil",
-    "noActiveProfileMsg": "Pilih profil"
+    "noActiveProfileMsg": "Pilih profil",
+    "tag_title": "Internet - tanpa batas ",
+    "addProfileDescription": "Klik + untuk menambahkan profil"
   },
   "stats": {
     "traffic": "Trafik Langsung",
@@ -179,7 +181,7 @@
         "ru": "Russia (ru)",
         "af": "Afghanistan (af)",
         "id": "Indonesia (id)",
-        "tr": "Turki (tr) 🇹🇷",
+        "tr": "Turki (tr) ",
         "other": "Lainnya"
       },
       "themeMode": "Jenis Tema",
@@ -416,5 +418,8 @@
     "warpNoiseSize": "Ukuran Kebisingan",
     "warpNoiseMode": "Modus Kebisingan",
     "warpNoiseDelay": "Penundaan Kebisingan"
+  },
+  "locations": {
+    "pageTitle": "Lokasi"
   }
 }

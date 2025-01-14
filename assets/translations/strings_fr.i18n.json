@@ -31,7 +31,9 @@
   "home": {
     "pageTitle": "Maison",
     "emptyProfilesMsg": "Commencez par ajouter un profil d'abonnement",
-    "noActiveProfileMsg": "Choisissez un profil"
+    "noActiveProfileMsg": "Choisissez un profil",
+    "tag_title": "Internet - sans limites 🚀",
+    "addProfileDescription": "Cliquez sur + pour ajouter un profil"
   },
   "stats": {
     "traffic": "Trafic",
@@ -416,5 +418,8 @@
     "warpNoiseSize": "Taille du bruit",
     "warpNoiseMode": "Mode bruit",
     "warpNoiseDelay": "Retard de bruit"
+  },
+  "locations": {
+    "pageTitle": "Lokalisations"
   }
 }

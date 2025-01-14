@@ -1,7 +1,7 @@
 name: hiddify
 description: Cross Platform Multi Protocol Proxy Frontend.
 publish_to: "none"
-version: 2.5.7+20507
+version: 1.0.0+1
 
 environment:
   sdk: ">=3.3.0 <4.0.0"
@@ -98,6 +98,8 @@ dependencies:
   grpc: ^3.2.4
   dynamic_color: ^1.7.0
   flutter_typeahead: ^5.0.1
+  yandex_mapkit_lite: ^2.0.2
+  lottie: ^3.2.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -113,6 +115,7 @@ dev_dependencies:
   go_router_builder: ^2.4.1
   dependency_validator: ^3.2.3
   dart_mappable_builder: ^4.2.1
+  flutter_launcher_icons: ^0.14.2
 
 dependency_overrides:
   # drift & package_info_plus are not compatible
@@ -124,6 +127,7 @@ flutter:
     # - assets/core/geoip.db
     # - assets/core/geosite.db
     - assets/images/logo.svg
+    - assets/images/logo_border_transparrent.png
     - assets/images/tray_icon.ico
     - assets/images/tray_icon.png
     - assets/images/tray_icon_dark.ico
@@ -134,6 +138,13 @@ flutter:
     - assets/images/tray_icon_disconnected.png
     - assets/images/connect_norouz.PNG
     - assets/images/disconnect_norouz.PNG
+    - assets/images/flags/armenia.png
+    - assets/images/flags/austria.png
+    - assets/images/flags/finland.png
+    - assets/images/flags/france.png
+    - assets/images/flags/germany.png
+    - assets/images/flags/netherlands.png
+    - assets/animation/impulse_lottie.json
 
   fonts:
     - family: Shabnam
@@ -152,12 +163,14 @@ flutter_gen:
     flutter_svg: true
 
 flutter_native_splash:
-  color: "#ffffff"
-  image: assets/images/source/ic_launcher_splash.png
+  color: "#1268FB"
+  image: assets/images/source/launch_icon.png
   android_gravity: center
   android_12:
-    color: "#ffffff"
-    image: assets/images/source/ic_launcher_foreground.png
+    color: "#1268FB"
+    image: assets/images/source/launch_icon.png
+
+
 
 ffigen:
   name: "SingboxNativeLibrary"

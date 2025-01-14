@@ -31,7 +31,9 @@
   "home": {
     "pageTitle": "Home",
     "emptyProfilesMsg": "Begin by Adding a Subscription Profile",
-    "noActiveProfileMsg": "Choose a Profile"
+    "noActiveProfileMsg": "Choose a Profile",
+    "tag_title": "Internet - without limits 🚀",
+    "addProfileDescription": "Click + to add a profile"
   },
   "stats": {
     "traffic": "Traffic",
@@ -174,13 +176,13 @@
       "region": "Region",
       "regionMsg": "Helps set default options to bypass domestic addresses",
       "regions": {
-        "ir": "Iran (ir) 🇮🇷",
-        "cn": "China (cn) 🇨🇳",
-        "ru": "Russia (ru) 🇷🇺",
-        "af": "Afghanistan (af) 🇦🇫",
-        "id": "Indonesia (id) 🇮🇩",
-        "tr": "Türkiye (tr) 🇹🇷",
-        "br": "Brazil (br) 🇧🇷",
+        "ir": "Iran (ir) ",
+        "cn": "China (cn) ",
+        "ru": "Russia (ru) ",
+        "af": "Afghanistan (af) ",
+        "id": "Indonesia (id) ",
+        "tr": "Türkiye (tr) ",
+        "br": "Brazil (br) ",
         "other": "Other"
       },
       "themeMode": "Theme Mode",
@@ -433,5 +435,8 @@
     "close": "Exit",
     "alertMessage": "Hide or Exit the application?",
     "remember": "Remember my choice"
+  },
+  "locations": {
+    "pageTitle": ""
   }
 }

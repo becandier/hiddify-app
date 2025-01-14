@@ -31,7 +31,9 @@
   "home": {
     "pageTitle": "Hogar",
     "emptyProfilesMsg": "Comience agregando un perfil de suscripción",
-    "noActiveProfileMsg": "Elige un perfil"
+    "noActiveProfileMsg": "Elige un perfil",
+    "tag_title": "Internet - sin límites ",
+    "addProfileDescription": "Haga clic en + para agregar un perfil"
   },
   "stats": {
     "traffic": "Tráfico",
@@ -179,7 +181,7 @@
         "ru": "Rusia (ru)",
         "af": "Afganistán (af)",
         "id": "Indonesia (id)",
-        "tr": "Turquía (tr) 🇹🇷",
+        "tr": "Turquía (tr) ",
         "other": "Otro"
       },
       "themeMode": "Modo temático",
@@ -205,8 +207,7 @@
       "debugMode": "Modo de depuración",
       "debugModeMsg": "Reinicie la aplicación para aplicar este cambio.",
       "memoryLimit": "Limite de memoria",
-      "memoryLimitMsg": "Habilítelo si experimenta errores de falta de memoria o fallas frecuentes de la aplicación",
-      "resetTunnel": "Restablecer perfil VPN"
+      "memoryLimitMsg": "Habilítelo si experimenta errores de falta de memoria o fallas frecuentes de la aplicación"
     },
     "network": {
       "perAppProxyPageTitle": "Proxy por aplicación",
@@ -416,5 +417,8 @@
     "warpNoiseSize": "Tamaño de ruido",
     "warpNoiseMode": "Modo Ruido",
     "warpNoiseDelay": "Retraso por ruido"
+  },
+  "locations": {
+    "pageTitle": "Lokatsii"
   }
 }

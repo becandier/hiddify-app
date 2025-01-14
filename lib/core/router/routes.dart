@@ -8,6 +8,7 @@ import 'package:hiddify/features/config_option/widget/quick_settings_modal.dart'
 import 'package:hiddify/features/home/widget/home_page.dart';
 import 'package:hiddify/features/intro/widget/intro_page.dart';
 import 'package:hiddify/features/log/overview/logs_overview_page.dart';
+import 'package:hiddify/features/map_locations/map_page.dart';
 import 'package:hiddify/features/per_app_proxy/overview/per_app_proxy_page.dart';
 import 'package:hiddify/features/profile/add/add_profile_modal.dart';
 import 'package:hiddify/features/profile/details/profile_details_page.dart';
@@ -68,6 +69,10 @@ GlobalKey<NavigatorState>? _dynamicRootKey = useMobileRouter ? rootNavigatorKey 
         TypedGoRoute<AboutRoute>(
           path: "about",
           name: AboutRoute.name,
+        ),
+        TypedGoRoute<MapLocationsRoute>(
+          path: "map-locations",
+          name: MapLocationsRoute.name,
         ),
       ],
     ),
@@ -362,5 +367,23 @@ class AboutRoute extends GoRouteData {
       );
     }
     return const NoTransitionPage(name: name, child: AboutPage());
+  }
+}
+
+class MapLocationsRoute extends GoRouteData {
+  const MapLocationsRoute();
+  static const name = "MapLocations";
+
+  static final GlobalKey<NavigatorState>? $parentNavigatorKey = _dynamicRootKey;
+
+  @override
+  Page<void> buildPage(BuildContext context, GoRouterState state) {
+    if (useMobileRouter) {
+      return const MaterialPage(
+        name: name,
+        child: MapLocationPage(),
+      );
+    }
+    return const NoTransitionPage(name: name, child: MapLocationPage());
   }
 }

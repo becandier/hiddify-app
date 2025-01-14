@@ -31,7 +31,9 @@
   "home": {
     "pageTitle": "Inicio",
     "emptyProfilesMsg": "Comece adicionando um perfil de assinatura",
-    "noActiveProfileMsg": "Escolha um perfil"
+    "noActiveProfileMsg": "Escolha um perfil",
+    "tag_title": "Internet - sem limites 🚀",
+    "addProfileDescription": "Clique + para adicionar um perfil"
   },
   "stats": {
     "traffic": "Tráfego",
@@ -179,7 +181,7 @@
         "ru": "Rússia (ru)",
         "af": "Afeganistão (af)",
         "id": "Indonesia (id)",
-        "tr": "Turquia (tr) 🇹🇷",
+        "tr": "Turquia (tr) ",
         "other": "Outro"
       },
       "themeMode": "Modo de Tema",
@@ -416,5 +418,8 @@
     "warpNoiseSize": "Tamanho do ruído",
     "warpNoiseMode": "Modo de ruído",
     "warpNoiseDelay": "Atraso de ruído"
+  },
+  "locations": {
+    "pageTitle": "Localizações"
   }
 }

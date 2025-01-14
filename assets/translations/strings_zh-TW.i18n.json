@@ -31,7 +31,9 @@
   "home": {
     "pageTitle": "首頁",
     "emptyProfilesMsg": "首先新增訂閱設定檔",
-    "noActiveProfileMsg": "選擇設定檔"
+    "noActiveProfileMsg": "選擇設定檔",
+    "tag_title": "互聯網 - 無限制 ",
+    "addProfileDescription": "點擊 + 添加配置文件"
   },
   "stats": {
     "traffic": "流量",
@@ -179,7 +181,7 @@
         "ru": "俄羅斯 (ru)",
         "af": "阿富汗 (af)",
         "id": "印尼 (id)",
-        "tr": "土耳其 (tr) 🇹🇷",
+        "tr": "土耳其 (tr) ",
         "other": "其他"
       },
       "themeMode": "主題模式",
@@ -419,5 +421,8 @@
   },
   "window": {
     "remember": "記住我的選擇"
+  },
+  "locations": {
+    "pageTitle": "位置"
   }
 }

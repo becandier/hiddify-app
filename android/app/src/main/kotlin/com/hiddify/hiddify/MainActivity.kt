@@ -22,6 +22,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.util.LinkedList
+import com.yandex.mapkit.MapKitFactory
 
 
 class MainActivity : FlutterFragmentActivity(), ServiceConnection.Callback {
@@ -42,6 +43,7 @@ class MainActivity : FlutterFragmentActivity(), ServiceConnection.Callback {
 
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)
+        MapKitFactory.setApiKey("ab291250-fb62-433d-9f7f-3c1881fe35fa") // Your generated API key
         instance = this
         reconnect()
         flutterEngine.plugins.add(MethodHandler(lifecycleScope))

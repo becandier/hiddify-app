@@ -416,5 +416,8 @@
     "warpNoiseSize": "Deng Siza",
     "warpNoiseMode": "Moda Deng",
     "warpNoiseDelay": "دواکەوتنی ژاوەژاو"
+  },
+  "locations": {
+    "pageTitle": "Локации"
   }
 }

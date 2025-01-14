@@ -2,16 +2,16 @@
 
 ## Step 1 مرحله
 
-You need to install the Hiddify application from [our site](https://app.hiddify.com) or [GitHub](https://github.com/hiddify/hiddify-app/tree/main?tab=readme-ov-file#%EF%B8%8F-get-it-on-stores).
+You need to install the Hiddify application from [our site](https://com.tabvpnmobile.app) or [GitHub](https://github.com/hiddify/hiddify-app/tree/main?tab=readme-ov-file#%EF%B8%8F-get-it-on-stores).
 
-شما باید ابتدا نرم‌افزار هیدیفای را از [سایت ما](https://app.hiddify.com) یا [گیت‌هاب](https://github.com/hiddify/hiddify-app/tree/main?tab=readme-ov-file#%EF%B8%8F-get-it-on-stores) دانلود کنید.
+شما باید ابتدا نرم‌افزار هیدیفای را از [سایت ما](https://com.tabvpnmobile.app) یا [گیت‌هاب](https://github.com/hiddify/hiddify-app/tree/main?tab=readme-ov-file#%EF%B8%8F-get-it-on-stores) دانلود کنید.
 
 ## Step 2-1: Easy Way
 
 Easy Way but requires another VPN for first-time use
-[Click to Import Free Warp Config](https://app.hiddify.com/warp)
+[Click to Import Free Warp Config](https://com.tabvpnmobile.app/warp)
 
-راه ساده، اما نیاز به یک فیلترشکن دیگر برای اولین بار دارد.  [کلیک برای اتصال به کانفیگ رایگان](https://app.hiddify.com/warp)
+راه ساده، اما نیاز به یک فیلترشکن دیگر برای اولین بار دارد.  [کلیک برای اتصال به کانفیگ رایگان](https://com.tabvpnmobile.app/warp)
 
 ## Step 2-2: A More Advanced Way
 

@@ -8,11 +8,12 @@ import 'package:hiddify/core/router/router.dart';
 import 'package:hiddify/features/common/nested_app_bar.dart';
 import 'package:hiddify/features/home/widget/connection_button.dart';
 import 'package:hiddify/features/home/widget/empty_profiles_home_body.dart';
+import 'package:hiddify/features/home/widget/title_tag.dart';
 import 'package:hiddify/features/profile/notifier/active_profile_notifier.dart';
 import 'package:hiddify/features/profile/widget/profile_tile.dart';
 import 'package:hiddify/features/proxy/active/active_proxy_delay_indicator.dart';
 import 'package:hiddify/features/proxy/active/active_proxy_footer.dart';
-import 'package:hiddify/features/proxy/active/active_proxy_notifier.dart';
+import 'package:hiddify/gen/assets.gen.dart';
 import 'package:hiddify/utils/utils.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:sliver_tools/sliver_tools.dart';
@@ -33,27 +34,34 @@ class HomePage extends HookConsumerWidget {
           CustomScrollView(
             slivers: [
               NestedAppBar(
-                title: Text.rich(
-                  TextSpan(
-                    children: [
-                      TextSpan(text: t.general.appTitle),
-                      const TextSpan(text: " "),
-                      const WidgetSpan(
-                        child: AppVersionLabel(),
-                        alignment: PlaceholderAlignment.middle,
+                title: Row(
+                  children: [
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(5),
+                      child: Assets.images.logoBorderTransparrent.image(
+                        width: 34,
+                        height: 34,
+                        color: Theme.of(context).colorScheme.primary,
                       ),
-                    ],
-                  ),
+                    ),
+                    const SizedBox(width: 10),
+                    const TitleTag(),
+                  ],
                 ),
                 actions: [
-                  IconButton(
-                    onPressed: () => const QuickSettingsRoute().push(context),
-                    icon: const Icon(FluentIcons.options_24_filled),
-                    tooltip: t.config.quickSettings,
-                  ),
+                  // todo MCH
+                  // IconButton(
+                  //   onPressed: () => const QuickSettingsRoute().push(context),
+                  //   icon: const Icon(FluentIcons.options_24_filled),
+                  //   tooltip: t.config.quickSettings,
+                  // ),
                   IconButton(
                     onPressed: () => const AddProfileRoute().push(context),
-                    icon: const Icon(FluentIcons.add_circle_24_filled),
+                    icon: Icon(
+                      FluentIcons.add_circle_24_filled,
+                      color: Theme.of(context).colorScheme.primary,
+                      size: 38,
+                    ),
                     tooltip: t.profile.add.buttonText,
                   ),
                 ],

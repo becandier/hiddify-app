@@ -416,5 +416,8 @@
     "warpNoiseSize": "حجم الضوضاء",
     "warpNoiseMode": "وضع الضوضاء",
     "warpNoiseDelay": "تأخير الضوضاء"
+  },
+  "locations": {
+    "pageTitle": "المواقع"
   }
 }

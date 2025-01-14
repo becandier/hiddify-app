@@ -31,7 +31,9 @@
   "home": {
     "pageTitle": "Ana Sayfa",
     "emptyProfilesMsg": "Aboneliği profili ekleyerek başlayın",
-    "noActiveProfileMsg": "Profil seçin"
+    "noActiveProfileMsg": "Profil seçin",
+    "tag_title": "İnternet - sınırsız 🚀",
+    "addProfileDescription": "Profil eklemek için + tıklayın"
   },
   "stats": {
     "traffic": "Trafik",
@@ -416,5 +418,8 @@
     "warpNoiseSize": "Gürültü Boyutu",
     "warpNoiseMode": "Gürültü Modu",
     "warpNoiseDelay": "Gürültü Gecikmesi"
+  },
+  "locations": {
+    "pageTitle": "Konumlar"
   }
 }

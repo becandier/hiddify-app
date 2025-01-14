@@ -1,6 +1,7 @@
 import UIKit
 import Flutter
 import Libcore
+import YandexMapsMobile
 
 @main
 @objc class AppDelegate: FlutterAppDelegate {
@@ -11,6 +12,7 @@ import Libcore
     ) -> Bool {
         setupFileManager()
         registerHandlers()
+        YMKMapKit.setApiKey("ab291250-fb62-433d-9f7f-3c1881fe35fa")
         GeneratedPluginRegistrant.register(with: self)
         return super.application(application, didFinishLaunchingWithOptions: launchOptions)
     }

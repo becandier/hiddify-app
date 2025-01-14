@@ -38,6 +38,31 @@ endif
 BUILD_ARGS=--dart-define sentry_dsn=$(SENTRY_DSN)
 DISTRIBUTOR_ARGS=--skip-clean --build-target $(TARGET) --build-dart-define sentry_dsn=$(SENTRY_DSN)
 
+API_ISSUER = 58613e41-3496-4c2a-8f60-2886cdde370f
+KEY_ID = RSASU5T5YV
+
+# ANSI code for blue text
+BLUE = \033[0;34m
+NC = \033[0m # No Color
+
+upload:
+	@echo "$(BLUE)Проверьте включен ли у вас VPN и актуален ли код версии!$(NC)"
+	xcrun altool --upload-app --type ios -f build/ios/ipa/*.ipa --apiKey $(KEY_ID) --apiIssuer $(API_ISSUER)
+
+test-flight:
+	@echo "$(BLUE)Проверьте включен ли у вас VPN и актуален ли код версии!$(NC)"
+	flutter clean
+	flutter pub get
+	flutter build ipa
+	xcrun altool --upload-app --type ios -f build/ios/ipa/*.ipa --apiKey $(KEY_ID) --apiIssuer $(API_ISSUER)
+
+debug:
+	@echo "$(BLUE)Проверьте включен ли у вас VPN и актуален ли код версии!$(NC)"
+	flutter clean
+	flutter pub get
+	flutter build ipa
+	xcrun altool --upload-app --type ios -f build/ios/ipa/*.ipa --apiKey $(KEY_ID) --apiIssuer $(API_ISSUER)
+	flutter build apk
 
 
 get:	

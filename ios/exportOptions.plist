@@ -10,10 +10,10 @@
 	<string>app-store</string>
 	<key>provisioningProfiles</key>
 	<dict>
-		<key>app.hiddify.com</key>
-		<string>dist.apple.app.hiddify.com</string>
-		<key>app.hiddify.com.SingBoxPacketTunnel</key>
-		<string>dist.apple.app.hiddify.com.singboxpackettunnel</string>
+		<key>com.tabvpnmobile.app</key>
+		<string>dist.apple.com.tabvpnmobile.app</string>
+		<key>com.tabvpnmobile.app.SingBoxPacketTunnel</key>
+		<string>dist.apple.com.tabvpnmobile.app.singboxpackettunnel</string>
 	</dict>
 	<key>signingCertificate</key>
 	<string>E2217AF6F3AD11BA09F9FD95E025D7E637F8B081</string>
